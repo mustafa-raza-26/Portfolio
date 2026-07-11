@@ -66,7 +66,7 @@ export default function Home() {
         "A real-time weather lookup application featuring precise location tracking, interactive radar maps, and detailed forecasting. Built with performance in mind to deliver instantaneous updates.",
       tags: ["JavaScript", "REST API", "HTML/CSS", "Async/Await"],
       Icon: Terminal,
-      link:'https://mr-weather-web.vercel.app/',
+      link:'https://mr-modern-weather-app.vercel.app/',
       gradient: "from-blue-500 to-cyan-500",
     },
     {
@@ -75,7 +75,7 @@ export default function Home() {
         "An advanced task management application designed for productivity. Features include drag-and-drop prioritization, categorized projects, and persistent local storage synchronization.",
       tags: ["React", "State Management", "Tailwind CSS"],
       Icon: Layers,
-      link:'https://mustafa-raza-26.github.io/TODO-App/',
+      link:'https://mr-modern-todo-app.vercel.app/',
       gradient: "from-purple-500 to-pink-500",
     },
     {
