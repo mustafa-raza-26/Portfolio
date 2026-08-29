@@ -138,7 +138,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative z-10 min-h-screen flex items-center pt-20" id="home">
+      <section className="relative z-10 min-h-screen flex items-center pt-10" id="home">
         <div className="max-w-6xl mx-auto px-6 w-full">
           <motion.div
             initial="hidden"
