@@ -61,30 +61,30 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Weather App",
+      title: "Feane Web",
       description:
         "A real-time weather lookup application featuring precise location tracking, interactive radar maps, and detailed forecasting. Built with performance in mind to deliver instantaneous updates.",
-      tags: ["JavaScript", "REST API", "HTML/CSS", "Async/Await"],
+      tags: ["JavaScript", "REST API", "HTML/CSS", "Async/Await", "React"],
       Icon: Terminal,
-      link:'https://mr-modern-weather-app.vercel.app/',
+      link:'https://feane-web.netlify.app/',
       gradient: "from-blue-500 to-cyan-500",
     },
     {
-      title: "Todo App",
+      title: "MedCare Web",
       description:
-        "An advanced task management application designed for productivity. Features include drag-and-drop prioritization, categorized projects, and persistent local storage synchronization.",
-      tags: ["React", "State Management", "Tailwind CSS"],
+        "MedCare is a patient-facing booking platform built with React, Vite and Bootstrap, with Supabase handling authentication and data. Patients can browse medical services, create an account (email or Google/Facebook login), choose a doctor and an appointment time, and manage their bookings from one place. I rebuilt it from a plain HTML/JS site into a component-based React app. Along the way I fixed several bugs, such as an appointments list that never loaded because of a mismatched column name. I also added a profile page, form validation, toast notifications and a responsive design.",
+      tags: ["React", "State Management", "Bootstrap CSS", "Supabse", "Auth"],
       Icon: Layers,
-      link:'https://mr-modern-todo-app.vercel.app/',
+      link:'https://medcareweb.vercel.app/',
       gradient: "from-purple-500 to-pink-500",
     },
     {
-      title: "Doctor Appointment App",
+      title: "MedCare Doctor Panel",
       description:
-        "A comprehensive booking system for doctor appointments. Implements complex scheduling logic, availability checks, and a seamless user flow from selection to confirmation.",
+        "MedCare Admin Portal is the staff-side companion to the patient booking app, built with React, Vite and Bootstrap on Supabase. After signing in, doctors get a live dashboard with patient and appointment statistics, a 7-day appointments chart, a status breakdown and today’s schedule. All of it is calculated from the real database.",
       tags: ["JavaScript", "Bootstrap", "Supabase", "Auth"],
       Icon: Code2,
-      link:'https://mustafa-raza-26.github.io/Final-Test/',
+      link:'https://medcare-doctor-panel.vercel.app/login',
       gradient: "from-emerald-500 to-teal-500",
     },
   ];
